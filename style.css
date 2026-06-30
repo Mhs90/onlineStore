@@ -104,7 +104,7 @@ hr {
 
 .basket {
     overflow-y: scroll;
-    height: 200px;
+    height: 300px;
     width: 90%;
     border: 1px solid rgb(105, 103, 103);
     border-radius: 20px;
@@ -113,7 +113,7 @@ hr {
 
 .circle2 {
     display: inline-block;
-    width: 30px;
+    width: 40px;
     height: 15px;
     border-radius: 15px;
     background-color: rgba(2, 100, 186, 0.636);
