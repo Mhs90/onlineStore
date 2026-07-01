@@ -69,12 +69,12 @@ def getBuyed():
 #-----------ADD product-------------
 @app.route("/add", methods = ["POST"])
 def addProduct():
-    data = request.get_json() or {}
-    
-    picture = data["picture"]
-    name = data["name"]
-    karbord = data["karbord"]
-    price = data["price"]
+
+    picture = request.files["picture"]
+    image_data = picture.read()
+    name = request.form["name"]
+    karbord = request.form["karbord"]
+    price = request.form["price"]
     
     conn = connectSql()
     cursor = conn.cursor()
@@ -84,7 +84,7 @@ def addProduct():
         INSERT INTO products (picture,name,karbord,price)
         values (%s ,%s ,%s ,%s)
         """,
-        (picture , name, karbord, price)
+        (image_data , name, karbord, price)
     )
     
     conn.commit()

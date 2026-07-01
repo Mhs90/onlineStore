@@ -204,4 +204,4 @@ const btnElClickHandler = (e) => {
             .catch(err => console.log(err));
     }
 };
-bodyEl.addEventListener("click", btnElClickHandler)
+bodyEl.addEventListener("click", btnElClickHandler);
