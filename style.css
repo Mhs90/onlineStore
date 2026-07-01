@@ -226,22 +226,64 @@ hr {
     height: 30px;
 }
 
-.karbord{
+.karbord {
     font-size: small;
     color: rgb(174, 165, 165);
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-.price_number{
+.price_number {
     color: white;
     margin-left: 10px;
 }
 
-.gheimat{
+.gheimat {
     margin-left: 100px;
     font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 330px;
+    height: 600px;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 50px;
+    overflow-y: scroll;
+}
+
+input {
+    text-align: right;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+label {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.btn{
+    width: 100px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+.secondtedad{
+    margin-top: 20px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
 }
