@@ -97,13 +97,13 @@ hr {
 .products {
     width: 80vw;
     height: 600px;
-    overflow-y: scroll;
+    overflow-y: auto;
     margin-top: 30px;
     margin-bottom: 30px
 }
 
 .basket {
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 300px;
     width: 90%;
     border: 1px solid rgb(105, 103, 103);
@@ -255,7 +255,7 @@ form {
     text-align: right;
     padding-right: 20px;
     margin-top: 50px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 input {

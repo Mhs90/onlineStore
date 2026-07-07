@@ -8,7 +8,7 @@ fetch("http://127.0.0.1:5000/products")
     .then(res => res.json())
     .then(data => {
         data.products.forEach(element => {
-            productsContainerEl.insertAdjacentHTML("afterbegin", `
+            productsContainerEl.insertAdjacentHTML("beforeend", `
         <div class="productTable">
             <img src="data:image/jpeg;base64,${element.picture}" class="productPicture">
             <p class="name">${element.name}</p>
@@ -54,7 +54,6 @@ const btnElClickHandler = () => {
     </form>
     `
 }
-jghghnnnb
 btnEl.addEventListener("click",btnElClickHandler)
 
 const submitElClickHandler = event => {
