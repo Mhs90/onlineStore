@@ -150,7 +150,7 @@ const sabtButtonElClickHandler = () => {
         <label> : نام و نام خانوادگی </label>
         <input type="text" placeholder="....نامت را وارد کن" class="name" required>
         <label>: شماره تلفن </label>
-        <input type="number" placeholder="....شماره تلفنت را وارد کن" class="phone" required>
+        <input type="tel" placeholder="....شماره تلفنت را وارد کن" class="phone" required>
         <label> : ایمیل</label>
         <input type="email" placeholder=".....ایمیل را وارد کن" class="email" required>
         <label>: آدرس </label>
